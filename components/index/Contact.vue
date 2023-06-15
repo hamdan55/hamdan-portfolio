@@ -2,7 +2,7 @@
     <section class="w-full min-h-screen flex flex-wrap justify-center items-center mt-5 lg:mt-0 p-4 lg:p-32 mb-32" id="contact">
         <div class="flex flex-wrap justify-center items-center">
             <h2 v-scroll-reveal="{ delay: 100, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}" class="w-full text-gray-700 text-3xl md:text-4xl font-semibold leading-tight text-center mb-12">
-              Let's get in touch!
+                Lets get in touch
             </h2>
             <form v-scroll-reveal="{ delay: 300, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}" method="post" @submit.prevent="formSubmission" class="flex flex-wrap flex-col w-full maxw-50 px-6">
                 <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-4 my-2">
@@ -21,11 +21,11 @@
                 <div class="w-full grid grid-cols-2 gap-4 my-2">
                     <div class="flex flex-wrap flex-col">
                         <label for="first_name" class="text-base text-gray-600 mb-2 w-full">First Name</label>
-                        <input tabindex="5" required class="w-full form-input" minlength="2" maxlength="15" type="text" name="first_name" id="first_name" v-model="first_name" placeholder="eg. John">
+                        <input tabindex="5" required class="w-full form-input" minlength="2" maxlength="15" type="text" name="first_name" id="first_name" v-model="first_name" placeholder="eg. Smit">
                     </div>
                     <div class="flex flex-wrap flex-col">
                         <label for="last_name" class="text-base text-gray-600 mb-2">Last Name</label>
-                        <input tabindex="6" required class="w-full form-input" minlength="2" maxlength="15" type="text" name="last_name" id="last_name" v-model="last_name" placeholder="eg. Snow">
+                        <input tabindex="6" required class="w-full form-input" minlength="2" maxlength="15" type="text" name="last_name" id="last_name" v-model="last_name" placeholder="eg. Patel">
                     </div>
                 </div>
                 <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-2">

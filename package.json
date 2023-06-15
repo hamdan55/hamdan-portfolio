@@ -1,8 +1,8 @@
 {
-  "name": "HAMDAN",
+  "name": "hamdanali",
   "version": "1.0.5",
   "description": "'I`m a Computer Programmer based in Winnipeg, MB. Specialized in building and designing websites and applications.'",
-  "author": "HamdanAli",
+  "author": "Smit Patel",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

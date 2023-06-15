@@ -3,14 +3,13 @@
     <div class="w-full flex flex-wrap justify-center items-start  pt-12 pb-20 lg:py-20 relative antialiased container-spx">
       <div class="w-full md:w-1/2 flex flex-wrap items-start justify-start content-start">
         <div class="w-full relative min-h-20">
-          <h1 style="mix-blend-mode: color-burn;color: #3a3a3a; z-index: 2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none opacity-75 absolute">Full Stack<br/>Software<br/>Engineer</h1>
-          <h1 style="color: #3a3a3a; opacity: 0.3; z-index: 2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none absolute">Full Stack<br/>Software<br/>Engineer</h1>
-          <h1 style="color: #bdc6d2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none opacity-75 absolute">Full Stack<br/>Software<br/>Engineer</h1>
+          <h1 style="mix-blend-mode: color-burn;color: #3a3a3a; z-index: 2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none opacity-75 absolute">Developing<br/>Beautiful<br/>Interfaces</h1>
+          <h1 style="color: #3a3a3a; opacity: 0.3; z-index: 2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none absolute">Developing<br/>Beautiful<br/>Interfaces</h1>
+          <h1 style="color: #bdc6d2;" class="dbi_txt text-6xl md:text-8xl font-semibold w-full leading-none opacity-75 absolute">Developing<br/>Beautiful<br/>Interfaces</h1>
         </div>
         <h3 v-scroll-reveal="{ delay: 1400, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}" class="text-lg lg:text-xl text-gray-600 w-full z-10 my-6 md:my-6 font-light">
-          I'm a professional Full Stack Software Engineer based in Winnipeg, <br/>
-          specializing in website and application design and development. With expertise in frontend and backend technologies, <br/>
-          I deliver exceptional user experiences and efficient, scalable solutions.
+          I'm a Full Stack Software Engineer based in Winnipeg.<br/>
+          Specialised in building and designing websites and applications.
         </h3>
         <div v-scroll-reveal="{ delay: 1500, mobile: true, origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '180px'}" class="w-full z-10 flex flex-wrap justify-start items-center pt-4">
           <nuxt-link to="#contact" class="base-btn bg-gray-900 text-white">
@@ -46,7 +45,9 @@
       <Services/>
       <AboutMe/>
       <Experience/>
-      <Projects :data="apps"/>
+      <Work/>
+      <Apps :data="apps"/>
+      <Blog :data="blog"/>
       <Contact/>
     </div>
   </section>
@@ -58,19 +59,22 @@ export default {
   scrollToTop: false,
   async asyncData({ $content, params }) {
     const apps = await $content('apps').fetch();
-    return { apps }
+    const blog = await $content('blog').fetch();
+    return { apps, blog }
   },
   components:{
     Services: () => import('@/components/index/Services.vue'),
     AboutMe: () => import('@/components/index/AboutMe.vue'),
     Experience: () => import('@/components/index/Experience.vue'),
+    Work: () => import('@/components/index/Work.vue'),
     Contact: () => import('@/components/index/Contact.vue'),
-    Projects: () => import('~/components/index/Projects.vue'),
+    Apps: () => import('@/components/index/Apps.vue'),
+    Blog: () => import('@/components/index/Blog.vue'),
     timeout: 3000
   },
   data(){
     return {
-      name: 'hamdan'
+      name: 'smitpatelx'
     }
   },
 }

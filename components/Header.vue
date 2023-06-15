@@ -3,7 +3,7 @@
     <div v-click-outside="hideIt" class="w-full flex-wrap justify-between items-center flex relative container-spx">
       <div class="w-full flex-wrap justify-between items-center flex">
         <nuxt-link v-scroll-reveal="{ delay: 0, mobile: true, origin: 'top', easing: 'ease-in', distance: '40px'}" to="/" class="focus:outline-none py-3 z-20">
-          <h1 style='font-size: 24px; font-weight: bold'>HAMDAN AlI BALOCH</h1>
+          <img src="/smitpatelx/smit.svg" class=" h-8"/>
         </nuxt-link>
         <div class="hidden lg:flex flex-wrap justify-center items-center relative">
           <nuxt-link v-scroll-reveal="{ delay: i*100, mobile: true, origin: 'top', easing: 'ease-in', distance: '40px' }" v-for="(data, i) in nav_links" :key="i" :to="`/${data.href}`" exact class="focus:outline-none text-white text-base mx-4 my-2 hover:back-color focus:underline text-opacity-100 hover:text-opacity-50 z-20">
@@ -81,11 +81,19 @@ export default {
           href: '#experience'
         },
         {
+          name: 'Work',
+          href: '#work'
+        },
+        {
           name: 'Contact',
           href: '#contact'
         },
         {
-          name: 'Projects',
+          name: 'Blog',
+          href: 'blog/'
+        },
+        {
+          name: 'Apps',
           href: 'apps/'
         }
       ]
@@ -121,7 +129,7 @@ export default {
 .resume_button{
   @apply bg-gray-900 z-20 px-5 py-2 leading-none text-white rounded-full text-base font-secondary transition-all duration-300 ease-out;
 
-  @media (min-width: 740px) {
+  @media (min-width: 740px) { 
     @apply bg-white bg-opacity-25 hover:bg-opacity-50;
 
     &:focus{

@@ -1,7 +1,7 @@
 <template>
   <div class="container-spx grid grid-cols-4 min-h-screen md:space-x-0" id="services">
     <div class="col-span-4 flex flex-wrap items-center justify-center md:justify-start py-4">
-      <h2 class="text-2xl md:text-3xl text-gray-800 font-bold">I'm ready to help with any software development needs you have.</h2>
+      <h2 class="text-4xl md:text-6xl text-gray-800 font-semibold">I can help you with</h2>
     </div>
     <div class="w-full grid grid-cols-1 md:grid-cols-4 col-span-4 md:gap-x-4">
       <div class="services-container">
@@ -17,8 +17,8 @@
             </g>
           </svg>
         </div>
-        <h3>Websites</h3>
-        <p>I expertly design and develop RESTful APIs for seamless integration with frontend web and mobile applications.</p>
+        <h3>Web Apps</h3>
+        <p>I design and develop RESTful APIs to be used by frontend web and mobile applications.</p>
       </div>
       <div class="services-container">
         <div>
@@ -41,10 +41,7 @@
           </svg>
         </div>
         <h3>Plugins</h3>
-        <p>Plugins serve as valuable additions to software, allowing users to extend functionality,
-          <br/>
-          customize features,
-          and adapt the software to their specific needs with ease and flexibility.</p>
+        <p>I design and develop secure & slick wordpress plugins from scratch.</p>
       </div>
       <div class="services-container">
         <div>
@@ -55,8 +52,7 @@
         </svg>
         </div>
         <h3>Design</h3>
-        <p>I design captivating experiences that drive business growth, elevating your brand's potential.
-          Let me help you create remarkable solutions that resonate with your audience.</p>
+        <p>I design amazing experiences, which will help you to grow your business.</p>
       </div>
       <div class="services-container">
         <div>
@@ -98,8 +94,7 @@
           </svg>
         </div>
         <h3>Dev-ops</h3>
-        <p>I leverage my expertise in analyzing your business requirements to configure robust CI/CD pipelines,
-          ensuring seamless and efficient software delivery.</p>
+        <p>I analyze your business requirements and configure CI/CD pipelines.</p>
       </div>
     </div>
     <div class="col-span-4 flex flex-wrap pt-6 lg:pt-0 justify-center md:justify-start items-start">

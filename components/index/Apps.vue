@@ -2,7 +2,7 @@
     <div class="w-full flex flex-wrap justify-center items-center min-h-screen bg-apps pb-24 md:pb-0 my-16">
         <div class="w-full flex flex-wrap pb-0 mb-12 lg:mb-7">
             <h2 v-scroll-reveal="{ delay: 100, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}" class="w-full text-gray-700 text-3xl md:text-4xl font-semibold leading-tight text-center">
-                My Projects
+                Apps &  Plugins
             </h2>
         </div>
         <div class="w-full max-w-6xl flex flex-wrap -mx-4 justify-center items-stretch">
@@ -21,7 +21,7 @@
                     </nuxt-link>
                     <div class="px-8 pb-6 rounded-b-md md:rounded-b-lg w-full flex flex-wrap content-between bg-white">
                         <div class="w-full flex flex-wrap justify-between items-center text-lg text-gray-600 font-light py-3">
-                            <p class="font-normal">Website</p>
+                            <p class="font-normal">App</p>
                             <p>{{app.reseaseDate | year}}</p>
                         </div>
                         <div class="w-full flex flex-wrap">
@@ -104,7 +104,7 @@ export default {
 
 .min\:h-10{
     min-height: 2.5rem;
-}
+} 
 
 .min\:w-10{
     min-width: 2.5rem;

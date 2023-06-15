@@ -10,53 +10,88 @@
                         <div class="bg-white shadow-lg rounded-lg p-6">
                             <div class="w-full flex flex-wrap flex-col items-start justify-center">
                                 <p class="text-xl font-secondary text-gray-800">Senior Full Stack Engineer</p>
-                                <p class="text-lg text-blue-500">Septem Systems PVT Limited</p>
-                                <p class="text-base font-secondary text-gray-500 font-mono mt-3">Dec 2021 - Present</p>
+                                <p class="text-lg text-blue-500">Datomar Labs</p>
+                                <p class="text-base font-secondary text-gray-500 font-mono mt-3">Mar 2022 - Present</p>
                             </div>
                             <ul class="text-gray-800 pt-6 list-disc pl-4 text-base font-light">
                               <li>
-                                Accomplished Senior Full Stack Engineer with over 2 years of experience in developing and delivering robust software solutions.
+                                Work with the business unit to understand, develop or refine requirements for projects within the company
                               </li>
                               <li>
-                                Proficient in both front-end and back-end technologies, leveraging a comprehensive skill set to drive successful project outcomes.
+                                Work with the back end team to architect solutions for the Company projects
                               </li>
                               <li>
-                                Strong expertise in designing and implementing scalable architectures, optimizing performance, and ensuring code quality.
+                                Lead the front end development for all projects at Datomar Labs
                               </li>
                               <li>
-                                Proven track record of leading cross-functional teams and collaborating effectively with stakeholders to achieve project objectives.
+                                Work with the team to determine the technologies and development stacks used
                               </li>
                               <li>
-                                Experienced in utilizing Agile methodologies to drive efficient development cycles and deliver high-quality software products.
+                                Manage UX and UI design and/or work with outside design stakeholders to ensure high quality design is implemented
                               </li>
                               <li>
-                                Strong problem-solving and analytical skills, with a keen eye for detail and a passion for delivering exceptional user experiences                              </li>
-                              <li>
-                                Excellent communication and interpersonal abilities, fostering effective collaboration and teamwork.
+                                Design front end development processes and best practices to optimize development at the Company
                               </li>
                               <li>
-                                Committed to delivering excellence and driving innovation through continuous learning and professional development.                              </li>
+                                Work with the Company leadership to evaluate new front end candidates for hiring
+                              </li>
                               <li>
-                                Consistently recognized for consistently delivering projects on time and within budget, exceeding client expectations.                 </li>           </ul>
+                                Assist in the onboarding and training of new employees within the team
+                              </li>
+                              <li>
+                                Work with Project Management and Product Management resources to ensure project work is completed on time and within budget
+                              </li>
+                            </ul>
                         </div>
                     </div>
 
                     <div class="my-4 p-3 w-full md:w-1/2 lg:w-1/3 flex flex-wrap justify-between items-stretch select-none" v-scroll-reveal="{ delay: 400, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}">
                         <div class="bg-white shadow-lg rounded-lg p-6">
                             <div class="w-full flex flex-wrap flex-col items-start justify-center">
-                                <p class="text-xl font-secondary text-gray-800">FrontEnd Developer</p>
-                                <p class="text-lg text-blue-500">TBox Solutions PVT Limited</p>
+                                <p class="text-xl font-secondary text-gray-800">Software Engineer</p>
+                                <p class="text-lg text-blue-500">Farmlink Solutions</p>
                                 <p class="text-base font-secondary text-gray-500 font-mono mt-3">Jan 2021 - Jan 2022</p>
                             </div>
                             <ul class="text-gray-800 pt-6 list-disc pl-4 text-base font-light">
-                                <li>Versatile FrontEnd Developer: Creating Engaging User Experiences.</li>
-                                <li>Passionate FrontEnd Developer with Expertise in Modern Web Technologies.</li>
-                                <li>Crafting Seamless User Interfaces: FrontEnd Development Specialist.</li>
-                                <li>Driving Innovation through FrontEnd Excellence and Cutting-Edge Design.</li>
-                                <li>Delivering High-Performance Web Solutions: FrontEnd Development Expert.</li>
-                                <li>Mastering the Art of FrontEnd Development: Building Beautiful and Responsive Websites.
-                                </li>
-                                <li>Collaborative FrontEnd Developer: Bridging Design and Functionality for Seamless Web Experiences.</li>
+                                <li>Designing, coding and debugging software applications using front end frameworks and enterprise applications (Full stack development).</li>
+                                <li>Performing Software analysis, code analysis, requirements analysis, software reviews, identification of code metrics, system risk analysis, and software reliability analysis.</li>
+                                <li>Providing assistance with installations, system configuration and third-party system integrations.</li>
+                                <li>Providing team members and clients with support and guidance</li>
+                                <li>Writing Tests and Migrations for back-end.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="my-4 p-3 w-full md:w-1/2 lg:w-1/3 flex flex-wrap justify-between items-stretch select-none" v-scroll-reveal="{ delay: 300, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="w-full flex flex-wrap flex-col items-start justify-center">
+                                <p class="text-xl font-secondary text-gray-800">Director of Web Development</p>
+                                <p class="text-lg text-blue-500">Blabbly</p>
+                                <p class="text-base font-secondary text-gray-500 font-mono mt-3">June 2020 - Jan 2021</p>
+                            </div>
+                            <ul class="text-gray-800 pt-6 list-disc pl-4 text-base font-light">
+                                <li>Perform web development tasks utilizing PHP/NodeJs Framework, Web Services, and SQL Server</li>
+                                <li>Lead design and implementation of solutions for our corporate websites and microsites</li>
+                                <li>Design and evolve highly interactive user interfaces and HTML prototypes for web and email initiatives</li>
+                                <li>Work as part of an agile team fostering teamwork, mentoring others, and striving for overall excellence</li>
+                                <li>Utilize social media platforms, support advanced online Marketing activities, and integrate with internal systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="my-4 p-3 w-full md:w-1/2 lg:w-1/3 flex flex-wrap justify-between items-stretch select-none" v-scroll-reveal="{ delay: 200, mobile: true, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', distance: '80px'}">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="w-full flex flex-wrap flex-col items-start justify-center">
+                                <p class="text-xl font-secondary text-gray-800">Full-stack Developer</p>
+                                <p class="text-lg text-blue-500">Netdevv</p>
+                                <p class="text-base font-secondary text-gray-500 font-mono mt-3">Oct 2017 – Apr 2020</p>
+                            </div>
+                            <ul class="text-gray-800 pt-6 list-disc pl-4 text-base font-light">
+                                <li>Building Backend API using Node.js, PHP, ASP.NET, JAVA to serve requests and content on front-end.</li>
+                                <li>Setup containers on Debian based systems to host Nginx and Apache servers. </li>
+                                <li>Setup docker containers for Postgres, MySql and MongoDB to improve stability and scalability of projects.</li>
+                                <li>Develop UI/UX by using tools like AdobeXD, Figma and collobrate with other developers to improve design.</li>
+                                <li>Work as part of an agile team fostering teamwork, mentoring others, and striving for overall excellence.</li>
                             </ul>
                         </div>
                     </div>

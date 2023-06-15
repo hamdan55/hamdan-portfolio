@@ -40,15 +40,17 @@
                         <nuxt-link :to="`${app.path}/`" class="w-full self-stretch flex flex-wrap items-center justify-center py-5 rounded-t-md md:rounded-t-lg card-img" >
                             <nuxt-picture
                                 placeholder
-                                :src="`${app.path}/../../SMIT-GRAY-SCALED.jpg`"
-                                class="w-80 flex rounded-t-md md:rounded-t-lg"
+                                :src="`${app.path}/display.svg`"
+                                class="w-40 flex rounded-t-md md:rounded-t-lg"
+                                :title="app.title"
+                                :alt="app.title"
                                 width="300"
                                 height="100"
                             />
                         </nuxt-link>
                         <div class="px-8 pb-6 rounded-b-md md:rounded-b-lg w-full flex flex-wrap content-between bg-white">
                             <div class="w-full flex flex-wrap justify-between items-center text-lg text-gray-600 font-light py-3">
-                                <p class="font-normal">Website</p>
+                                <p class="font-normal">App</p>
                                 <p>{{app.reseaseDate | year}}</p>
                             </div>
                             <div class="w-full flex flex-wrap">
@@ -155,7 +157,7 @@ export default {
 
 .min\:h-10{
     min-height: 2.5rem;
-}
+} 
 
 .min\:w-10{
     min-width: 2.5rem;

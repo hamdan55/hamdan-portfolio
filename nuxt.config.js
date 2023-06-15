@@ -4,7 +4,7 @@ export default {
   ssr: true,
   server: {
     port: 3000, // default: 3000
-    host: 'localhost' // default: localhost
+    host: '0.0.0.0' // default: localhost
   },
   env: {
     apiUrl: process.env.API_URL || 'http://localhost:3000'
@@ -54,8 +54,8 @@ export default {
       nativeUI: true,
     },
     manifest: {
-      name: 'Hamdan Ali Baloch',
-      short_name: 'HAM',
+      name: 'Smit Patel',
+      short_name: 'SPX',
       description: 'I`m a Full Stack Software Engineer based in Winnipeg, MB. Specialized in building and designing websites and applications.',
       icons: ['favicon.png'],
     },
